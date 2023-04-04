@@ -37,7 +37,6 @@ final class HomeViewModel:BaseViewModel {
     
         apiService.getGallery { success, gallery, error in
             self._gallery.accept(gallery)
-            print("called api")
         
         }
         

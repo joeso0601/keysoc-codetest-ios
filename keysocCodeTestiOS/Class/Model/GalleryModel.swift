@@ -30,6 +30,8 @@ public struct GalleryModel: Codable {
     public let currency: String?
     public let releaseDate: String?
     public let primaryGenreName: String?
+    public var bookMark = false
+    
 
     enum GalleryModelKeys: String, CodingKey {
         

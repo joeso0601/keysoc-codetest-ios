@@ -6,6 +6,7 @@ target 'keysocCodeTestiOS' do
   use_frameworks!
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'SDWebImage', '~> 4.0'
   # Pods for keysocCodeTestiOS
 
   target 'keysocCodeTestiOSTests' do

@@ -20,12 +20,12 @@
 		B12A1E1329DB338200040F25 /* keysocCodeTestiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A1E1229DB338200040F25 /* keysocCodeTestiOSUITestsLaunchTests.swift */; };
 		B12A1E2B29DB354E00040F25 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A1E2429DB354E00040F25 /* HomeViewModel.swift */; };
 		B12A1E2D29DB354E00040F25 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A1E2629DB354E00040F25 /* HomeViewController.swift */; };
-		B12A1E3A29DC09E200040F25 /* HomeGalleryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A1E3929DC09E100040F25 /* HomeGalleryTableViewCell.swift */; };
-		B12A1E3C29DC0A0300040F25 /* HomeGalleryItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A1E3B29DC0A0300040F25 /* HomeGalleryItemViewModel.swift */; };
 		B12A1E3F29DC0BEF00040F25 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A1E3E29DC0BEF00040F25 /* BaseViewModel.swift */; };
 		B12A1E4229DC0D8000040F25 /* GalleryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A1E4129DC0D8000040F25 /* GalleryModel.swift */; };
 		B12A1E4529DC10D800040F25 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A1E4429DC10D800040F25 /* APIManager.swift */; };
 		B12A1E4729DC1F5900040F25 /* GalleryListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A1E4629DC1F5800040F25 /* GalleryListModel.swift */; };
+		B12A1E4C29DC971F00040F25 /* HomeGalleryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A1E4A29DC971F00040F25 /* HomeGalleryTableViewCell.swift */; };
+		B12A1E4D29DC971F00040F25 /* HomeGalleryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B12A1E4B29DC971F00040F25 /* HomeGalleryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,12 +67,12 @@
 		B12A1E1229DB338200040F25 /* keysocCodeTestiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keysocCodeTestiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B12A1E2429DB354E00040F25 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		B12A1E2629DB354E00040F25 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		B12A1E3929DC09E100040F25 /* HomeGalleryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGalleryTableViewCell.swift; sourceTree = "<group>"; };
-		B12A1E3B29DC0A0300040F25 /* HomeGalleryItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGalleryItemViewModel.swift; sourceTree = "<group>"; };
 		B12A1E3E29DC0BEF00040F25 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		B12A1E4129DC0D8000040F25 /* GalleryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryModel.swift; sourceTree = "<group>"; };
 		B12A1E4429DC10D800040F25 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		B12A1E4629DC1F5800040F25 /* GalleryListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryListModel.swift; sourceTree = "<group>"; };
+		B12A1E4A29DC971F00040F25 /* HomeGalleryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGalleryTableViewCell.swift; sourceTree = "<group>"; };
+		B12A1E4B29DC971F00040F25 /* HomeGalleryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeGalleryTableViewCell.xib; sourceTree = "<group>"; };
 		DD5BF44D112BA549F94A4958 /* Pods-keysocCodeTestiOS-keysocCodeTestiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keysocCodeTestiOS-keysocCodeTestiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-keysocCodeTestiOS-keysocCodeTestiOSUITests/Pods-keysocCodeTestiOS-keysocCodeTestiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2DC3CC2C95AD27F046760E1 /* Pods-keysocCodeTestiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keysocCodeTestiOS.debug.xcconfig"; path = "Target Support Files/Pods-keysocCodeTestiOS/Pods-keysocCodeTestiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -205,8 +205,8 @@
 			children = (
 				B12A1E2429DB354E00040F25 /* HomeViewModel.swift */,
 				B12A1E2629DB354E00040F25 /* HomeViewController.swift */,
-				B12A1E3929DC09E100040F25 /* HomeGalleryTableViewCell.swift */,
-				B12A1E3B29DC0A0300040F25 /* HomeGalleryItemViewModel.swift */,
+				B12A1E4A29DC971F00040F25 /* HomeGalleryTableViewCell.swift */,
+				B12A1E4B29DC971F00040F25 /* HomeGalleryTableViewCell.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -346,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B12A1DFC29DB338200040F25 /* LaunchScreen.storyboard in Resources */,
+				B12A1E4D29DC971F00040F25 /* HomeGalleryTableViewCell.xib in Resources */,
 				B12A1DF929DB338200040F25 /* Assets.xcassets in Resources */,
 				B12A1DF729DB337F00040F25 /* Main.storyboard in Resources */,
 			);
@@ -475,16 +476,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12A1E3A29DC09E200040F25 /* HomeGalleryTableViewCell.swift in Sources */,
 				B12A1E2D29DB354E00040F25 /* HomeViewController.swift in Sources */,
 				B12A1DF029DB337F00040F25 /* AppDelegate.swift in Sources */,
 				B12A1E4529DC10D800040F25 /* APIManager.swift in Sources */,
 				B12A1E3F29DC0BEF00040F25 /* BaseViewModel.swift in Sources */,
 				B12A1DF229DB337F00040F25 /* SceneDelegate.swift in Sources */,
-				B12A1E3C29DC0A0300040F25 /* HomeGalleryItemViewModel.swift in Sources */,
 				B12A1E4229DC0D8000040F25 /* GalleryModel.swift in Sources */,
 				B12A1E4729DC1F5900040F25 /* GalleryListModel.swift in Sources */,
 				B12A1E2B29DB354E00040F25 /* HomeViewModel.swift in Sources */,
+				B12A1E4C29DC971F00040F25 /* HomeGalleryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

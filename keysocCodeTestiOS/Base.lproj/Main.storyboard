@@ -17,29 +17,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hde-pj-iRs">
-                                <rect key="frame" x="16" y="63" width="75" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                            </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="8zU-WA-Kd3">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="8zU-WA-Kd3">
                                 <rect key="frame" x="0.0" y="98" width="390" height="712"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qfe-kR-NpK">
+                                <rect key="frame" x="16" y="55" width="173" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="SHOW BOOKMARK"/>
+                                <connections>
+                                    <action selector="toggleBookMarkOnClickListener:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7c0-2J-qPU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Hde-pj-iRs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="3l3-2p-cHf"/>
                             <constraint firstItem="8zU-WA-Kd3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HHM-RP-DOp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8zU-WA-Kd3" secondAttribute="trailing" id="Lzi-UQ-yjv"/>
-                            <constraint firstItem="8zU-WA-Kd3" firstAttribute="top" secondItem="Hde-pj-iRs" secondAttribute="bottom" id="T2Q-Lp-7WG"/>
-                            <constraint firstItem="Hde-pj-iRs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="avf-9A-dY3"/>
+                            <constraint firstItem="8zU-WA-Kd3" firstAttribute="top" secondItem="Qfe-kR-NpK" secondAttribute="bottom" constant="8" symbolic="YES" id="Ynh-Qv-e7R"/>
+                            <constraint firstItem="Qfe-kR-NpK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ggG-Qn-G6L"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8zU-WA-Kd3" secondAttribute="bottom" id="odO-WM-fTE"/>
+                            <constraint firstItem="Qfe-kR-NpK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="r9c-Az-6Tr"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="galleryTableVIew" destination="8zU-WA-Kd3" id="uaP-P7-vlf"/>
+                        <outlet property="galleryTableView" destination="8zU-WA-Kd3" id="PAf-yk-4jQ"/>
+                        <outlet property="toggleBookMark" destination="Qfe-kR-NpK" id="P3t-Qs-uPj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
