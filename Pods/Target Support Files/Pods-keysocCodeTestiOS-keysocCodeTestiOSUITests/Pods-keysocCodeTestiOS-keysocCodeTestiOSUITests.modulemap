@@ -1,0 +1,6 @@
+framework module Pods_keysocCodeTestiOS_keysocCodeTestiOSUITests {
+  umbrella header "Pods-keysocCodeTestiOS-keysocCodeTestiOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
